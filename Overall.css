@@ -1,0 +1,444 @@
+.{
+    margin: 0;
+    padding: 0;
+}
+body{
+display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+background-image: linear-gradient(rgb(9, 219, 191),rgb(17, 4, 90));
+  font-family: sans-serif;
+}
+
+.container{
+margin-top: 20px;
+height: 500px;
+width: 800px;
+border: 1px solid rgb(243, 243, 248);
+border-radius: 8px;
+object-fit: cover;
+border-radius: 10px;
+/* background: no-repeat; */
+background-image: url(https://static.vecteezy.com/system/resources/thumbnails/025/550/626/small_2x/beautiful-tropical-beach-background-made-with-ai-generated-photo.jpg);
+}
+.a{
+margin-top: 15px;
+
+}
+.a1{
+    margin-left: 420px;
+}
+.a2{
+  margin-left: 15px;
+}
+.a3{
+  margin-left: 15px;
+}
+.a4{
+  margin-left: 15px;
+}
+.a5{
+  margin-left: 15px;
+    margin-top: -16px;
+
+}
+.btn{
+  /* margin-left: 10px;
+  margin-top: 10px; */
+ transition: background-color 1s ease-out, transform 1s ease-out;
+}
+
+.btn:hover {
+  background-color: rgb(34, 224, 224);
+  transform: scale(1.1);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+  /* overflow: hidden; */
+  /* text-align: center; */
+  width: 100%;
+  /* margin-top: 6px; */
+  /* margin-left: 90px; */
+  /* height: 40px; */
+  border-radius: 20px;
+  background:transparent;
+}
+ul li {
+  float: left;
+}
+ul li a:hover {
+  background-color: rgb(68, 65, 65);
+}
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  /* padding: 14px 16px; */
+  text-decoration: none;
+}
+.btn{
+    margin-top: 15px;
+    margin-right:10px;
+    color: white;
+    font-size: 12px;
+    border-radius: 6px;
+    border: 1px solid white;
+    background:transparent;
+    padding: 8px;
+    width: 80px;
+}
+
+/* start css for div b */
+.b{
+  color: white;
+  font-size: 10px;
+  margin-left: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* end css for div b */
+
+/* start css for div c */
+.c{
+  color: white;
+  font-size: 20px;
+  margin-left: 40px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+  @keyframes lights {
+  0% {
+    color: hsl(230, 40%, 80%);
+    text-shadow:
+      0 0 1em hsla(320, 100%, 50%, 0.2),
+      0 0 0.125em hsla(320, 71%, 12%, 0.3),
+      -1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+      1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+  }
+  
+  30% { 
+    color: hsl(230, 80%, 90%);
+    text-shadow:
+      0 0 1em hsla(320, 100%, 50%, 0.5),
+      0 0 0.125em hsla(320, 69%, 14%, 0.5),
+      -0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+      0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+  }
+  
+  40% { 
+    color: hsl(230, 100%, 95%);
+    text-shadow:
+      0 0 1em hsla(320, 100%, 50%, 0.5),
+      0 0 0.125em hsla(321, 23%, 69%, 0.5),
+      -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.2),
+      0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.4);
+  }
+  
+  70% {
+    color: hsl(230, 80%, 90%);
+    text-shadow:
+      0 0 1em hsla(320, 100%, 50%, 0.5),
+      0 0 0.125em hsla(320, 100%, 60%, 0.5),
+      0.5em -0.125em 0.25em hsla(40, 74%, 12%, 0.2),
+      -0.5em 0.125em 0.25em hsla(200, 85%, 11%, 0.4);
+  }
+  
+  100% {
+    color: hsl(230, 40%, 80%);
+    text-shadow:
+      0 0 1em hsla(320, 100%, 50%, 0.2),
+      0 0 0.125em hsla(320, 100%, 60%, 0.3),
+      1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+      -1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+  }
+}
+  .text1{
+
+  }
+
+.text2 {
+  margin: auto;
+  font-size: 20px;
+  font-weight: 300;
+  animation: lights 10s 750ms linear infinite;
+}
+
+/* end css for div c */
+
+/* start css for div d */
+.d{
+  color: white;
+  font-size: 12px;
+  margin-left: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight:normal;
+}
+.text3{
+   
+  opacity: 0; /* Start hidden */
+  transform: translateY(50px); /* Start 50px below its final position */
+  animation: slideUp 5s forwards; /* Apply the animation */
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* End at its original position */
+  }
+}
+
+/* end css for div d */
+
+/* start css for div e */
+.e{
+  display: flex;
+  margin-left: 20px;
+}
+/* start css for div e1 */
+.e1{
+  float: left;
+  width: 120px;
+  height: 170px;
+  border: 1px solid white;
+  background-color: whitesmoke;
+  border-radius: 6px;
+  margin-left: 16px;
+
+}
+.img1{
+  /* width: 10px;
+  height: 12px; */
+  margin-top: 8px;
+  margin-left: 8px;
+  /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKjpG-xUD-DZm61y4VQdmR6iRd3v5-x9UhF3AXZpeGTYsO78Iy27EoGWS7kvpW7udUte8&usqp=CAU); */
+  
+}
+
+.img1:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.i{
+  width: 100px;
+  height: 120px;
+  border: 1px solid white;
+  border-radius: 6px;
+  transition: transform .2s; /* Animation */
+}
+
+.text4{
+  font-size: 13px;
+  color: rgb(50, 50, 146);
+  margin-left: 8px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text5{
+  font-size: 8px;
+   margin-left: 8px;
+  color: rgb(66, 65, 65);
+}
+/* start css for div e2 */
+.e2{
+  width: 120px;
+  height: 170px;
+  border: 1px solid white;
+  background-color: whitesmoke;
+  border-radius: 6px;
+  margin-left: 16px;
+}
+.img2{
+  margin-top: 8px;
+  margin-left: 8px;
+}
+.i{
+  width: 100px;
+  height: 120px;
+  border: 1px solid white;
+  border-radius: 6px;
+  transition: transform .2s; /* Animation */
+}
+.img2:hover {
+  transform: scale(1.5);
+}
+.text6{
+  font-size: 13px;
+  color: rgb(50, 50, 146);
+  margin-left: 8px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text7{
+  font-size: 8px;
+   margin-left: 8px;
+  color: rgb(66, 65, 65);
+}
+/* start css for div e3 */
+.e3{
+  width: 120px;
+  height: 170px;
+  border: 1px solid white;
+  background-color: whitesmoke;
+  border-radius: 6px;
+  margin-left: 16px;
+}
+.img3{
+  width: 102px;
+  height: 120px;
+  margin-top: 8px;
+  margin-left: 8px;
+  border: 1px solid white;
+  border-radius: 6px;
+  transition: transform .2s; /* Animation */
+}
+
+.img3:hover {
+  transform: scale(1.5);
+}
+.text8{
+  font-size: 13px;
+  color: rgb(50, 50, 146);
+  margin-left: 8px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text9{
+  font-size: 8px;
+   margin-left: 8px;
+  color: rgb(66, 65, 65);
+}
+/* end css for div de*/
+
+/* start css for div f*/
+.f{
+width: 730px;
+  height: 70px;
+  display: flex;
+  border-radius: 6px;
+  margin-left: 35px;
+  margin-top: 8px;
+  padding: 10px;
+  background-color: rgba(248, 243, 243, 0.5); /*  with 50% opacity */
+}
+.f1{
+  float: left;
+  width: 180px;
+  height: 35px;
+  background-color: whitesmoke;
+  border-radius: 6px;
+  /* margin-left: 5px; */
+  margin-top: 8px;
+  text-align: center;
+  align-items: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(68, 37, 97);
+  font-size: 14px;
+  padding-top: 16px;
+  transition: background-color 1s ease-out, transform 1s ease-out;
+}
+
+.f1:hover {
+  background-color: lightgreen;
+  transform: scale(1.1);
+}
+
+.icn{
+  margin-top: 10px;
+}
+.txt1{
+  margin-top: 10px;
+}
+.f2{
+  width: 140px;
+  height: 35px;
+  background-color: whitesmoke;
+  border-radius: 6px;
+  margin-left: 5px;
+  margin-top: 8px;
+   text-align: center;
+  align-items: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(68, 37, 97);
+  font-size: 14px;
+  padding-top: 16px;
+   transition: background-color 1s ease-out, transform 1s ease-out;
+}
+
+.f2:hover {
+  background-color: lightgreen;
+  transform: scale(1.1);
+}
+
+.f3{
+  width: 140px;
+  height: 35px;
+  background-color: whitesmoke;
+  border-radius: 6px;
+  margin-left: 5px;
+  margin-top: 8px;
+   text-align: center;
+  align-items: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(68, 37, 97);
+  font-size: 14px;
+  padding-top: 16px;
+   transition: background-color 1s ease-out, transform 1s ease-out;
+}
+
+.f3:hover {
+  background-color: lightgreen;
+  transform: scale(1.1);
+}
+
+
+.f4{
+  width: 140px;
+  height: 35px;
+  background-color: whitesmoke;
+  border-radius: 6px;
+  margin-left: 5px;
+  margin-top: 8px;
+   text-align: center;
+  align-items: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(68, 37, 97);
+  font-size: 14px;
+  padding-top: 16px;
+   transition: background-color 1s ease-out, transform 1s ease-out;
+}
+
+.f4:hover {
+  background-color: lightgreen;
+  transform: scale(1.1);
+}
+
+/* .f5{
+  width: 300px;
+  height: 50px;
+  background-color: rgb(248, 154, 66);
+  border-radius: 6px;
+  margin-left: 15px;
+  margin-top: 8px;
+  color: black;
+} */
+.btn1{
+  width: 110px;
+  height: 50px;
+  margin-top: 9px;
+  margin-left: 20px;
+  background-color: rgb(127, 209, 235);
+  border-radius: 8px;
+   transition: background-color 1s ease-out, transform 1s ease-out;
+}
+
+.btn1:hover {
+  background-color: rgb(7, 49, 75);
+  transform: scale(1.1);
+}
+
+
+/* end css for div f*/

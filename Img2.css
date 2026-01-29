@@ -1,0 +1,146 @@
+body{
+background-image: linear-gradient(rgb(223, 49, 214),rgb(16, 4, 83));
+/* background-image: url(https://media.istockphoto.com/id/833264986/photo/oia-santorini-greece.jpg?s=612x612&w=0&k=20&c=lPrDRhV3U8UlAybluDjVM0lGr7I_dJaHCmluA59y5iQ=); */
+/* background: no-repeat; */
+height: 100vh;
+width: 100%;
+object-fit: cover;
+display: flex;
+
+}
+ul {
+  list-style-type: none;
+margin-top: 160px;
+  height: 230px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+  /* overflow: hidden; */
+  width: 110px;
+  /* margin-left: 90px; */
+  border-radius: 20px;
+   /* background-color: rgba(248, 243, 243, 0.5);  with 50% opacity */
+background-image: linear-gradient(rgb(223, 168, 49),rgb(157, 98, 233)); 
+
+}
+ul li {
+}
+
+ul li a:hover {
+  background-color: rgb(194, 87, 171);
+}
+ul li a {
+  display: block;
+  color: white;
+  width: 80px;
+  height: 40px;
+  border-radius: 8px;
+
+  /* text-align: center; */
+  /* padding: 14px 16px; */
+  text-decoration: none;
+}
+.a1{
+    padding-top: 40px;
+}
+.container{
+margin-top: 80px;
+height: 400px;
+width: 700px;
+border: 1px solid rgb(243, 243, 248);
+border-radius: 8px;
+object-fit: cover;
+border-radius: 10px;
+margin-left: 150px;
+background-image: url(https://st.1001fonts.net/img/illustrations/s/c/scotland-font-10-large.png);
+opacity: 0.8;
+object-fit: cover;}
+
+/* start css for div e1 */
+.e1{
+  float: left;
+  width: 120px;
+  height: 170px;
+  border: 1px solid white;
+  background-color: whitesmoke;
+  border-radius: 6px;
+  margin-top: 90px;
+  margin-left: 16px;
+
+}
+.img1{
+   width: 120px;
+  height: 170px; 
+  /* margin-top: 80px; */
+  /* margin-left: 8px; */
+  border-radius: 8px;
+  object-fit: cover;
+}
+.img1:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.img2{
+   width: 120px;
+  height: 170px; 
+  /* margin-top: 80px; */
+  /* margin-left: 8px; */
+  border-radius: 8px;
+  object-fit: cover;
+}
+.img2:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.img3{
+   width: 120px;
+  height: 170px; 
+  /* margin-top: 80px; */
+  /* margin-left: 8px; */
+  border-radius: 8px;
+  object-fit: cover;
+}
+.img3:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.para{
+  float: left;
+text-align: justify;
+width: 200px;
+color: rgb(223, 214, 209);
+margin-left: 60px;
+margin-top: 90px;
+}
+
+  /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKjpG-xUD-DZm61y4VQdmR6iRd3v5-x9UhF3AXZpeGTYsO78Iy27EoGWS7kvpW7udUte8&usqp=CAU); 
+  
+
+
+.img1:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) 
+}
+.i{
+  width: 100px;
+  height: 120px;
+  border: 1px solid white;
+  border-radius: 6px;
+  transition: transform .2s; /* Animation */
+.e2{
+  float: left;
+  width: 120px;
+  height: 170px;
+  border: 1px solid white;
+  background-color: whitesmoke;
+  border-radius: 6px;
+  margin-top: 90px;
+  margin-left: 16px;
+
+}
+.e3{
+  float: left;
+  width: 120px;
+  height: 170px;
+  border: 1px solid white;
+  background-color: whitesmoke;
+  border-radius: 6px;
+  margin-top: 90px;
+  margin-left: 16px;
+
+}
